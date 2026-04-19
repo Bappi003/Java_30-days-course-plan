@@ -8,7 +8,7 @@ class Student {
     }
 }
 
-public class  Example_1{
+public class  student{
     public static void main(String[] args) {
         Student s1 = new Student();  // object create
         s1.name = "Bappi";
