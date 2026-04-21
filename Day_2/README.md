@@ -34,6 +34,7 @@ public class Main {
     }
 }
 ```
+
 #Example 02
 ```java
 class Student {
