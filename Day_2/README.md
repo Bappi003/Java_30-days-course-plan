@@ -35,7 +35,7 @@ public class Main {
 }
 ```
 
-#Example 02
+# Example 02
 ```java
 class Student {
     private String studentId;
