@@ -1,4 +1,4 @@
-#  Eample !
+#  Eample 1
 ~~~ java
 class Language {
     void display() {
