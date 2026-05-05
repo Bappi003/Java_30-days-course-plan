@@ -1,25 +1,15 @@
-import java.util.ArrayList;
+import java.util.HashMap;
 
-class Product {
-    int id;
-    String name;
-
-    Product(int id, String name) {
-        this.id = id;
-        this.name = name;
-    }
-}
-
-public class Example1 {
+public class Example2 {
     public static void main(String[] args) {
-        ArrayList<Product> cart = new ArrayList<>();
+        HashMap<String, Integer> marks = new HashMap<>();
 
-        cart.add(new Product(1, "Laptop"));
-        cart.add(new Product(2, "Mouse"));
-        cart.add(new Product(3, "Keyboard"));
+        marks.put("Anom", 93);
+        marks.put("Swachha", 95);
+        marks.put("Mohit", 96);
 
-        for (Product p : cart) {
-            System.out.println(p.id + " " + p.name);
+        for (String name : marks.keySet()) {
+            System.out.println(name + " " + marks.get(name));
         }
     }
 }
